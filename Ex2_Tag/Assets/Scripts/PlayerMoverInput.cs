@@ -11,7 +11,7 @@ public class PlayerMoverInput : NetworkBehaviour
 
     private Vector3 moveVector;
 
-    private float speed = 1f;
+    private float speed = 2f;
  
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class PlayerMoverInput : NetworkBehaviour
         else if (!GetComponent<Animator>().GetBool("Is Walking") && !GetComponent<Animator>().GetBool("Is Running"))
         {
             GetComponent<Animator>().SetBool("Is Walking", true);
-            speed = 1f;
+            speed = 2f;
             Invoke("StartRunning", 1);
         }
         
@@ -62,6 +62,6 @@ public class PlayerMoverInput : NetworkBehaviour
         }
         GetComponent<Animator>().SetBool("Is Running", true);
         GetComponent<Animator>().SetBool("Is Walking", false);
-        speed = 3f;
+        speed = 4f;
     }
 }
