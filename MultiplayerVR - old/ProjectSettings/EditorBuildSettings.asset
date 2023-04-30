@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SetupScene.unity
     guid: a2ba44019e2a540deb4507337c25a844
   - enabled: 1
-    path: Assets/new Avatar with terrain.unity
+    path: Assets/Scenes/MainSceneAvatar.unity
     guid: 0d7908ac4cba0964ab2e1b789e99c56e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eb84867302ed045349bae371346a3123, type: 2}
